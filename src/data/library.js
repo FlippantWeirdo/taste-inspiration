@@ -1027,5 +1027,258 @@ export const LIBRARY = [
       "Build a desktop logistics-dashboard login on a royal-blue #2857BE page field. Inset a large white 16px rounded application canvas with a 50/50 split. Left panel: full-bleed isometric 3D freight-network image showing a bright #2452B7 road ribbon running diagonally from lower-left toward centre-right, one saturated blue semi-truck on the route, and multiple pale desaturated delivery trucks at varying depths on surrounding roads. Tint the image cool blue and let the lower third deepen enough for white text. Overlay an uppercase 10px tracked descriptor, a three-line 38px white promise 'Visibility, Efficiency, Sustainability', a muted proof line, and a wide translucent #8CB7F2 pill inviting network sign-up. Right panel: top-right small 'Don't have an account? Sign Up' text; then a restrained stacked mark, 'Kamion Dashboard Log In' title in #1F2C55, two long 48px white input fields with fine #D9E2F0 borders and right-aligned email/lock icons, a small forgot-password link, and a compact square #2452B7 button containing a white right arrow. Keep the right half mostly empty, use #7C879C supporting text, small 10-13px UI typography, no extra cards, no heavy shadows, no dark panel, and no gradients outside the image lighting.",
     imageRecipe:
       "IMAGE RECIPE - fill [SUBJECT], render at 4:5, 2K\\n\\n[SUBJECT: a freight logistics network rendered as an isometric miniature] viewed from a high three-quarter angle, one saturated cobalt-blue semi-truck travelling along a matching blue multi-lane road that runs diagonally from the lower-left toward the centre-right, several unbranded white and pale-grey delivery trucks on adjacent roads receding into a cool blurred background, STRICT palette: cobalt #2452B7, royal blue #2857BE, icy blue #8CB7F2, pale grey #D9E2F0, white, no warm colours, soft studio daylight, the lower third held slightly darker and uncluttered for white overlaid headline copy, crisp product-visualisation realism, no text, no logos, no people, no aerial city context."
+  },
+
+  {
+    id: "lentix",
+    title: "Lentix",
+    styleLabel: "mint landscape × finance",
+    family: "painterly-illustrated",
+    crossTags: ["editorial-grotesk"],
+    image: "screenshots/IMG_139ED73DB0B2-1.jpeg",
+    source: null,
+    summary: "A stablecoin landing page that grows its financial world out of soft moss. Two metallic tokens emerge from the terrain while a restrained headline and email form float in open air above it.",
+    vocabulary: ["moss landscape", "buried metallic tokens", "mint haze", "italic serif turn", "email-as-CTA", "soft horizon split", "finance without charts"],
+    notes: [
+      "The page is divided by depth rather than a hard line: clear mint air holds the message, then tactile moss takes over the lower half.",
+      "A green italic serif line completes the black sans headline, giving the financial promise a more editorial voice.",
+      "The coins are only partly visible. Their scale and material imply a larger world below the fold without showing a product dashboard.",
+      "The email field and circular arrow are composed as one long capsule, so the conversion action stays visually quiet."
+    ],
+    palette: ["#EAF3E9", "#BDEFD0", "#68D89A", "#047A51", "#0A0A0A", "#FFFFFF"],
+    typeStack: { display: "Wide neutral sans, 500, with a high-contrast italic serif second line", body: "Neutral sans, 400, centred and compact", ui: "Small neutral sans inside rounded controls" },
+    brief: "Make institutional digital money feel tangible and alive. Set the promise in a quiet, airy upper field, then let a richly detailed green terrain occupy the lower half. Use two oversized coins as signs of value, partly hidden by the moss. Keep the signup action simple and the typography confident enough to stand apart from the lush image.",
+    prompt: "Build a full-viewport stablecoin landing hero on a pale mint #EAF3E9 ground. Place a small logo top-left, two outlined social circles and a black access pill top-right. Centre a large black sans headline at roughly 68px, followed by a green high-contrast italic serif line. Add two lines of body copy and a 425px white email capsule with a green circular arrow button. Fill the lower 55% with a soft, luminous moss landscape; let two large green metallic tokens rise partially from it. Leave clear negative space behind the headline, with no charts or card grid.",
+    imageRecipe: "IMAGE RECIPE — fill [SUBJECT], render at 16:9, 2K\n\n[SUBJECT: two oversized unmarked metallic tokens partly buried in a dense rolling moss landscape] photographed like a premium product campaign, one token left and one right, frosted mint atmosphere opening into empty space across the upper half, tactile miniature foliage and soft macro detail, STRICT palette: pale mint #EAF3E9, fresh green #68D89A, deep emerald #047A51, silver highlights, no warm hues, diffuse daylight, shallow depth of field toward the foreground, no text, no logos, no people."
+  },
+
+  {
+    id: "synais",
+    title: "Synais",
+    styleLabel: "tactile finance × editorial",
+    family: "editorial-grotesk",
+    crossTags: ["app-surface"],
+    image: "screenshots/IMG_207890C33BD3-1.jpeg",
+    source: null,
+    summary: "A finance automation site built around a hand-held device, fine circuit lines, and a warm burgundy second act. The interface previews sit low in the hero while the human hand supplies scale and physicality.",
+    vocabulary: ["hand-held hero object", "circuit-line field", "warm ivory canvas", "burgundy chapter", "embedded finance tiles", "oversized proof statement", "product-to-story transition"],
+    notes: [
+      "The hand bridges the abstract promise and the software: it is centred below the CTA, while thin circuit paths connect it visually to the edge of the page.",
+      "Two small dark dashboard tiles at the bottom right show real product texture without turning the hero into a full dashboard screenshot.",
+      "The next section flips from ivory to deep burgundy and repeats the value proposition at much larger scale, creating a clear editorial chapter break.",
+      "The product mark appears on both the physical object and a floating square, making a small symbol do much of the brand work."
+    ],
+    palette: ["#E9E6D9", "#F8F7F1", "#321814", "#873C43", "#A8B2A3", "#111111"],
+    typeStack: { display: "Neutral grotesk, 400–500, tight large lines", body: "Same grotesk, 400, muted warm grey", ui: "Compact grotesk for financial readouts" },
+    brief: "Present finance automation as something calm and graspable. Put one tactile object in a human hand at the centre of the opening scene, then let hairline connection paths and small financial readouts suggest a larger system. Keep the hero on warm ivory; move into deep burgundy for an emphatic explanation below.",
+    prompt: "Build a finance automation landing page on a warm ivory #E9E6D9 canvas inset within a grey surround. Use a compact logo control top-left, square login and signup buttons top-right, and a centred two-line 64px grotesk headline with one warm-grey phrase. Below, place a short subhead and two rectangular CTAs, burgundy and white. Centre a photo-real hand holding a small matte sage device beneath the buttons, extending to the hero bottom. Thread very thin pale circuit paths horizontally behind it; place two dark burgundy finance metric tiles at the lower right and a left-aligned explanatory paragraph at the lower left. Follow with a full-width #321814 section carrying an oversized pale statement and three widely spaced metrics.",
+    imageRecipe: "IMAGE RECIPE — fill [SUBJECT], render at 4:5, 2K\n\n[SUBJECT: a dark-skinned hand holding a small rounded-square matte sage financial device] premium studio product photography, device face plain with no readable marks, hand rising from the bottom centre with natural skin texture and a deep teal sleeve, STRICT palette: sage #A8B2A3, warm ivory #E9E6D9, deep burgundy #321814, realistic warm skin tones, soft directional studio light, clean isolated ivory background with ample space above, no text, no logos, no charts."
+  },
+
+  {
+    id: "cantclone-hero",
+    title: "Cantclone — Hero",
+    styleLabel: "conversion page × product proof",
+    family: "app-surface",
+    crossTags: ["editorial-grotesk"],
+    image: "screenshots/IMG_C5C526FC702F-1.jpeg",
+    source: null,
+    summary: "A website protection landing page that goes straight from a blunt headline and trial CTA to a large dashboard preview. A vivid blue page frame keeps a mostly white, conversion-heavy layout recognisable.",
+    vocabulary: ["blue outer frame", "browser-chrome wrapper", "risk-reversal CTA", "dashboard as evidence", "trust triplet", "before-after panels", "direct-response copy"],
+    notes: [
+      "The browser bar and electric-blue border turn the landing page into an apparent captured product session.",
+      "The primary CTA is repeated with the same wording and bright blue treatment, making the action easy to recognise down the page.",
+      "A large dashboard screenshot follows the first promise immediately; it supplies product proof before the long problem explanation.",
+      "Three terse reassurance points sit between the CTA and screenshot, answering performance, visitor-impact, and import-tool objections."
+    ],
+    palette: ["#075BFA", "#2369F6", "#FFFFFF", "#F5F5F5", "#151515", "#777777", "#FF9E00"],
+    typeStack: { display: "Bold neutral grotesk, 600–700, centred", body: "Neutral grotesk, 400, short measure", ui: "Compact sans in dashboard controls" },
+    brief: "Sell a technical protection product with direct language and immediate evidence. Use a bright blue frame as the brand signature, but keep the reading surface white. Make the trial offer unmistakable, answer the first objections in one row, then let a crisp dashboard preview demonstrate that there is an actual product behind the promise.",
+    prompt: "Build a long-form website protection landing page inside a 20px electric-blue #075BFA outer field. Inset a white rounded browser canvas with a minimal browser bar. Beneath a sparse logo/navigation row, centre a small new badge, a two-line bold black headline around 56px, a narrow supporting paragraph, and a saturated blue trial button with a right arrow and compact risk-reversal line. Add a three-item trust row with simple line icons. Place a large pale dashboard screenshot below, fading gently at its base; then introduce the threat with a large centred statement and two side-by-side before/after diagrams. Keep the page predominantly white and the blue concentrated on the frame and actions.",
+    imageRecipe: "IMAGE RECIPE — fill [SUBJECT], render at 16:9, 2K\n\n[SUBJECT: a clean website security dashboard showing protected domains and blocked copy attempts] straight-on interface screenshot style, left navigation rail, four compact metric tiles across the top, domain list with restrained status indicators below, one prominent add-domain row, STRICT palette: white #FFFFFF, soft grey #F5F5F5, electric blue #075BFA, black #151515, tiny green status accents, crisp thin dividers, no browser chrome, no people, no photography, no illegible decorative text."
+  },
+
+  {
+    id: "cantclone-integrations",
+    title: "Cantclone — Integrations & Pricing",
+    styleLabel: "isometric ecosystem × pricing",
+    family: "app-surface",
+    crossTags: ["bento-studio"],
+    image: "screenshots/IMG_B28ACFF35661-1.jpeg",
+    source: null,
+    summary: "The middle of the Cantclone page pairs a soft isometric compatibility map with three straightforward pricing columns. Blue CTAs tie the diagram and plan cards back to the same trial action.",
+    vocabulary: ["isometric logo field", "raised centre tile", "fade-out ecosystem", "three-tier plan grid", "monthly-annual toggle", "repeated trial action", "blue framed canvas"],
+    notes: [
+      "Platform compatibility is expressed as a spatial ecosystem: familiar service marks orbit a raised central tile instead of appearing in a plain logo strip.",
+      "The isometric tiles dissolve toward the page edges, keeping the centre visually active while the surrounding white space stays calm.",
+      "Pricing uses three equally weighted cards with repeated feature language; the key differentiator is domain scale, which makes comparison simple.",
+      "One blue trial button appears above the plans and again at the bottom of every card, maintaining continuity through a long section."
+    ],
+    palette: ["#075BFA", "#EAF2FF", "#FFFFFF", "#F6F6F6", "#111111", "#696969"],
+    typeStack: { display: "Bold neutral grotesk, 600–700", body: "Neutral grotesk, 400", ui: "Medium grotesk for pricing labels and features" },
+    brief: "Make broad compatibility feel easy to understand, then make the commercial choice easy to compare. Let a lightly dimensional tile field show one tool at the centre of many website platforms. Below it, use three clean pricing plans with shared feature structure, obvious prices, and the same blue action at the same position in every card.",
+    prompt: "Design a white SaaS integrations and pricing page inset within a 20px electric-blue #075BFA border. Centre a 44px black heading and two lines of supporting copy above a wide isometric field of pale diamond tiles; raise the central blue product tile and scatter platform marks around it, fading peripheral tiles into white. Add a blue trial CTA under the illustration. Leave generous vertical space, then centre a pricing headline and a small monthly/annual segmented control. Show three equal white plan cards with subtle grey outlines, black headings, aligned feature lists, prices near the bottom, and bright blue full-width trial buttons. Avoid dark backgrounds and decorative gradients.",
+    imageRecipe: "IMAGE RECIPE — fill [SUBJECT], render at 16:9, 2K\n\n[SUBJECT: a website tool represented as one raised central tile in a network of compatible website platforms] clean isometric product illustration, white and pale-blue diamond tiles arranged in a loose horizontal grid, one central tile lifted above the rest with a sharp cobalt-blue abstract symbol, surrounding tiles carrying simple abstract platform marks, peripheral tiles dissolving into white, STRICT palette: #075BFA, #EAF2FF, white, very light grey, sparse tiny accent colours only, soft realistic elevation shadows, no text, no people."
+  },
+
+  {
+    id: "cantclone-close",
+    title: "Cantclone — Closing Section",
+    styleLabel: "FAQ × conversion close",
+    family: "editorial-grotesk",
+    crossTags: ["app-surface"],
+    image: "screenshots/IMG_3CB85540C20D-1.jpeg",
+    source: null,
+    summary: "A long-form landing page closes with compact FAQs, an urgent final appeal, a tilted dashboard image, and one more trial action. The same electric-blue surround frames the otherwise spare white layout.",
+    vocabulary: ["FAQ accordion stack", "urgency badge", "centred closing pitch", "glowing trial button", "tilted dashboard preview", "soft image fade", "reassurance footer"],
+    notes: [
+      "The FAQs are grouped into a narrow column of quiet grey rows; they resolve practical objections before the final pitch.",
+      "A large blank interval between FAQ and closing headline resets attention after the dense question stack.",
+      "The dashboard preview is tilted and fades into the white ground, making it feel like product evidence without creating another hard-edged section.",
+      "The final CTA, product mark, and reassurance copy repeat the offer in descending visual emphasis."
+    ],
+    palette: ["#075BFA", "#FFFFFF", "#F7F7F7", "#151515", "#606060", "#FFAB13"],
+    typeStack: { display: "Bold neutral grotesk, 600–700, centred", body: "Neutral grotesk, 400, narrow paragraph measure", ui: "Medium neutral sans for FAQ rows" },
+    brief: "Close a long SaaS page by answering practical doubts, restating the stakes, and showing the product once more. Keep the FAQ compact and plain. Give the final appeal its own space, let a blue trial action stand out, and use a softened product preview to connect the sales copy back to the working interface.",
+    prompt: "Build the closing portion of a website protection page on white inside a thick electric-blue #075BFA frame. At top, place six narrow pale-grey FAQ accordion rows with right-aligned plus signs. After generous whitespace, centre a small urgency capsule, a bold three-line black headline at about 42px, a short paragraph, and a luminous blue trial button. Set a large dashboard preview below at slight perspective, fading into white at the bottom. Follow with a soft-grey footer panel containing the product mark, two lines of reassurance, a final blue CTA, tiny secondary links, and no new visual motif.",
+    imageRecipe: "IMAGE RECIPE — fill [SUBJECT], render at 16:9, 2K\n\n[SUBJECT: a minimal website protection dashboard floating in perspective] clean white software interface with a small left sidebar, four compact activity metrics, a protected-domain table, and understated status labels, viewed at a slight backward tilt with the bottom edge fading smoothly into white, STRICT palette: white, light grey #F7F7F7, electric blue #075BFA, black #151515, tiny green status accents, gentle blue ambient light beneath the interface, no people, no photography, no browser chrome."
+  },
+
+  {
+    id: "cuby",
+    title: "Cuby",
+    styleLabel: "crypto payments × app showcase",
+    family: "app-surface",
+    crossTags: ["editorial-grotesk"],
+    image: "screenshots/IMG_662A7827CD5C-1.jpeg",
+    source: null,
+    summary: "A global payments hero that uses a faint blue grid, floating currency tokens, and three overlapping phone screens to make a complex card-and-crypto offer feel like a familiar consumer app.",
+    vocabulary: ["soft blueprint grid", "floating currency tokens", "three-phone fan", "serif italic second line", "black conversion pill", "fade-to-white devices", "trust-logo runway"],
+    notes: [
+      "The headline combines a direct sans first line with a large italic serif second line, making the payment methods the visual hook.",
+      "Four floating currency tiles sit near the hero corners and frame the centred copy without forming a card grid.",
+      "A three-phone fan emerges from the bottom of the hero, with the centre balance screen dominant and the side transaction views receding.",
+      "The fine square grid fades as it approaches the devices, so the scene reads as technical but stays light."
+    ],
+    palette: ["#F8F8FC", "#DDEBFF", "#FFFFFF", "#0A0A0B", "#ACF168", "#2F70CE", "#8B67E8"],
+    typeStack: { display: "Large geometric sans with high-contrast italic serif second line", body: "Neutral sans, 400, centred", ui: "Compact app sans with tabular figures" },
+    brief: "Explain a card and crypto payment layer through a familiar mobile product rather than technical diagrams. Keep the hero light and spacious. Use a precise grid and a few floating currency symbols to signal infrastructure, then let three convincing phone screens establish that it works as a usable account.",
+    prompt: "Build a payments landing hero on near-white #F8F8FC. Place a simple nav above a large rounded rectangular hero with a faint blue square grid and soft blue light at the upper edges. Centre a small certification badge, a 64px black sans line 'Get Paid Globally', an equally large black italic serif line 'Card or Crypto', concise copy, and two CTAs: black filled and white outlined. Float four small rounded currency tiles around the content. Across the lower half, show three realistic mobile banking screens fanned in perspective, the centre screen tallest, fading softly into white at the bottom. Add a monochrome trust-logo row below the hero.",
+    imageRecipe: "IMAGE RECIPE — fill [SUBJECT], render at 16:9, 2K\n\n[SUBJECT: three premium smartphones displaying a modern global payments account] centred fan arrangement, tallest front phone straight-on with a clear balance and simple payment actions, side phones angled outward with transaction lists, crisp black device bezels and pale app interfaces, STRICT palette: white, icy blue #DDEBFF, black #0A0A0B, tiny lime #ACF168 accents, bright studio light, bottom edges dissolving into white, no hands, no people, no logos, no illegible decorative text."
+  },
+
+  {
+    id: "moundiq",
+    title: "MoundIQ",
+    styleLabel: "baseball photo × quiet SaaS",
+    family: "cinematic-atmosphere",
+    crossTags: ["editorial-grotesk"],
+    image: "screenshots/IMG_833C6EC3648E-1.jpeg",
+    source: null,
+    summary: "A baseball intelligence product puts a huge, softly focused ball at the base of an otherwise empty hero. The natural stadium image gives a plain black headline and dark-green demo button immediate context.",
+    vocabulary: ["low baseball horizon", "defocused stadium", "wide quiet sky", "deep-green demo pill", "centre-seam anchor", "soft edge vignette", "sport-specific product proof"],
+    notes: [
+      "The image reserves its bright upper half for text and moves all recognisable baseball detail below the CTA.",
+      "A ball on the centre axis anchors the page without competing with the headline; other balls at the edges add depth.",
+      "The dark-green primary CTA is the only saturated UI colour, borrowing from the field rather than introducing a new brand hue.",
+      "The nav is a small floating capsule, leaving most of the wide hero free of interface chrome."
+    ],
+    palette: ["#F8F7F3", "#0B0C0A", "#004B3C", "#42532C", "#8A4331", "#E9E8E2"],
+    typeStack: { display: "Neutral grotesk, 500–600, very large", body: "Neutral sans, 400, compact centred lines", ui: "Small neutral sans inside restrained pills" },
+    brief: "Make baseball analytics feel native to the game rather than to a generic dashboard. Use one photographic scene with ample empty light above and tactile balls close to the lens below. Keep the product promise and call to action spare, with a deep-green accent drawn from the field.",
+    prompt: "Create a full-width baseball analytics landing hero. Use a photographic background with an almost-white softly blurred stadium upper half, a green field near the lower middle, and three oversized baseballs across the bottom foreground, the centre ball in clearest focus. Place a black logo top-left, a small floating white navigation capsule top-centre, and a deep-green demo pill top-right. Centre a small trust capsule, a two-line black 68px grotesk headline, concise supporting copy, and two rounded buttons above the balls. Keep all text in the empty upper area; let the photograph do the branding.",
+    imageRecipe: "IMAGE RECIPE — fill [SUBJECT], render at 16:9, 2K\n\n[SUBJECT: three baseballs resting close to the camera at the edge of a professional baseball field] centre baseball large and in crisp focus with tactile leather and red stitching, side baseballs partially cropped and softly defocused, distant grass and stadium blurred into a bright nearly white open upper half for typography, STRICT palette: warm off-white #F8F7F3, field green #42532C, muted red stitching #8A4331, natural overcast daylight, shallow depth of field, no players, no text, no logos."
+  },
+
+  {
+    id: "finku",
+    title: "finku",
+    styleLabel: "mint frame × global finance",
+    family: "editorial-grotesk",
+    crossTags: ["app-surface"],
+    image: "screenshots/IMG_B83C5F032F2D-1.jpeg",
+    source: null,
+    summary: "A global finance page framed in bright mint, with a dark-green headline, concentric guide rings, partner logos, and broad lifestyle photo panels that introduce the product before a transfer UI appears.",
+    vocabulary: ["mint page frame", "concentric guide rings", "dark-green display", "partner logo runway", "lifestyle diptych", "overlaid account tiles", "transfer-card reveal"],
+    notes: [
+      "The mint surround forms a persistent visual border while the white interior supports long-form content.",
+      "Very faint concentric circles sit behind the headline and CTA, adding a financial-network suggestion without a literal diagram.",
+      "The first large photo pair balances a single portrait against a wider group scene; small finance cards overlay each image to connect lifestyle to product.",
+      "The page moves from human scenes into a mint-tinted money-transfer interface, making the product reveal feel earned."
+    ],
+    palette: ["#5AE6A6", "#FFFFFF", "#084E43", "#CFF9E9", "#80BADA", "#141414"],
+    typeStack: { display: "Geometric grotesk, 400–500, broad lines", body: "Neutral sans, 400", ui: "Compact sans with tabular figures in transfer cards" },
+    brief: "Present cross-border money management as a daily human activity. Use the fresh mint brand colour to frame a calm white page, make the headline the first dominant element, then show real people and small financial overlays before introducing the transfer tool itself. Keep the interface credible and the photography optimistic.",
+    prompt: "Build a long-form finance landing page inside a 24px mint #5AE6A6 page surround. On white, place a logo top-left, quiet horizontal nav, and dark-green top-right action. Centre a large 68px deep-green headline with two lines, a green capsule action, and faint concentric rings behind it. Set a horizontal partner-logo row beneath. Follow with two large rounded photo panels: a close portrait on blue at left and an outdoor group scene at right, each carrying one small dark-green or mint finance overlay. Below, introduce a centred transfer interface on a pale-mint section. Keep visual weight in the photos and headline; use hairline section structure.",
+    imageRecipe: "IMAGE RECIPE — fill [SUBJECT], render at 16:9, 2K\n\n[SUBJECT: four friends in expressive green, blue and pink clothing walking together in bright open air] premium candid lifestyle photography for an inclusive global finance brand, optimistic natural gestures, fresh blue sky and a strip of green landscape, leave clean space in the upper-right for a small UI overlay, STRICT palette: fresh mint #5AE6A6, deep green #084E43, sky blue #80BADA, touches of vivid pink, crisp daylight, real skin tones, no text, no logos, no payment cards."
+  },
+
+  {
+    id: "shopify-sidekick",
+    title: "Shopify Sidekick",
+    styleLabel: "commerce UI × floating objects",
+    family: "app-surface",
+    crossTags: ["bento-studio"],
+    image: "screenshots/IMG_D0784D8A38F4-1.jpeg",
+    source: null,
+    summary: "A Shopify order screen is presented as the hero object, surrounded by isolated 3D merchandise. The Sidekick input sits inside the real workflow at the bottom, framing the assistant as part of store operations.",
+    vocabulary: ["full-order interface", "floating merchandise", "black navigation rail", "embedded assistant composer", "operational hero", "product-object halo", "clean studio ground"],
+    notes: [
+      "The order detail is large enough to show real operational context: fulfilment, payment, customer, risk, and timeline all remain visible.",
+      "A small Sidekick composer is placed within the order screen rather than in a separate marketing card, showing where assistance happens.",
+      "The surrounding chairs and glass objects make the merchant's catalogue tangible while the UI remains the central subject.",
+      "The objects break the rectangular silhouette of a standard software screenshot but do not obscure the primary order information."
+    ],
+    palette: ["#F2F2F2", "#FFFFFF", "#111111", "#F7DC47", "#285AF6", "#78A71B", "#B77318"],
+    typeStack: { display: "Product UI sans, 500–600 for the order heading", body: "Compact product UI sans, 400", ui: "Dense but readable operational labels and tabular figures" },
+    brief: "Show an AI commerce assistant at the point of work. Let a full, believable order screen dominate the composition and place the assistant entry point inside it. Surround that screen with a few well-lit product objects that imply a merchant catalogue, while keeping the interface content unobstructed.",
+    prompt: "Create a product showcase on a seamless light-grey studio background. Centre a wide 16:9 commerce order-detail interface with a black left navigation rail, white main canvas, order heading, status badges, fulfilment item list, payment summary, and a narrow right customer-information column. Place a compact AI assistant composer along the bottom edge of the interface. Float a handful of photoreal catalogue objects just outside its boundaries: a mustard upholstered chair above, an iridescent glass stool lower-left, blue glassware to the left, a green chair to the right, and a small blue textured object high-right. Keep the screenshot readable and the objects secondary.",
+    imageRecipe: "IMAGE RECIPE — fill [SUBJECT], render at 16:9, 2K\n\n[SUBJECT: a curated collection of modern furniture and glass objects floating around an empty central rectangle] premium e-commerce studio art direction, mustard upholstered chair above, iridescent translucent glass stool lower-left, blue glass vessel left, small vivid green chair right, blue textured object upper-right, all casting soft believable shadows onto a seamless light-grey ground, STRICT palette: #F2F2F2, mustard #B77318, cobalt #285AF6, lime #78A71B, black only in fine details, central rectangular space clear for a software interface, no people, no text, no logos."
+  },
+
+  {
+    id: "growcode",
+    title: "Growcode",
+    styleLabel: "grainy landscape × studio",
+    family: "painterly-illustrated",
+    crossTags: ["editorial-grotesk"],
+    image: "screenshots/IMG_DB8ED8F4C27C-1.jpeg",
+    source: null,
+    summary: "A creative studio leads with a saturated, grainy illustrated landscape, then pivots to a stark black service statement on white. The image gives emotion; the typography explains the offer.",
+    vocabulary: ["halftone sunset", "solitary hill tree", "cobalt sky field", "coral cloud wall", "floating black nav", "image-then-statement", "editorial two-column close"],
+    notes: [
+      "The artwork occupies the entire opening panel and carries no overlaid headline, allowing its colour and composition to be read without interference.",
+      "A lone tree at the right third gives scale to the sweeping hill and huge rising cloud bank.",
+      "The black nav capsule sits above the illustration as a separate utility object; its white terminal button previews the white content section below.",
+      "The service statement appears after the image in a simple two-column layout, converting atmosphere into a clear business proposition."
+    ],
+    palette: ["#1039C4", "#FFCF66", "#F2746E", "#185A3B", "#FFFFFF", "#0B0B0B"],
+    typeStack: { display: "Large neutral grotesk, 500, tight two-line statement", body: "Neutral sans, 400, short paragraph", ui: "Small sans in black pill navigation" },
+    brief: "Give a digital studio an unmistakable visual memory before explaining its service. Use one spectacular grainy landscape illustration as the opening act, with no text over it. Then let a plain, oversized black statement and a short supporting paragraph resolve the meaning below. Keep navigation self-contained in a dark floating capsule.",
+    prompt: "Build a creative studio landing page on white with narrow side margins. Centre a black rounded-full navigation capsule near the top, containing logo, four short links, and a small white action pill. Under it, place a wide 2:1 illustrated landscape panel: deep cobalt sky, enormous coral and golden cloud bank, rolling green-blue hill, and one small dark tree near the right third. Use visible halftone grain and crisp rectangular image edges. Below the artwork, set a two-column white section with a huge black two-line grotesk statement on the left and a short paragraph plus black button on the right. Do not overlay copy on the artwork.",
+    imageRecipe: "IMAGE RECIPE — fill [SUBJECT], render at 2:1, 2K\n\n[SUBJECT: a lone small tree on the crest of a rolling hill beneath a monumental sunset cloud bank] richly art-directed digital landscape illustration with printed halftone grain, deep cobalt-blue open sky at left, huge scalloped clouds swelling from centre to upper-right in gold, coral and rose, dark green hill rising toward the tree, distant layered blue hills, STRICT palette: cobalt #1039C4, gold #FFCF66, coral #F2746E, forest #185A3B, no white sky, cinematic wide framing, no people, no buildings, no text."
+  },
+
+  {
+    id: "elevenlabs",
+    title: "ElevenLabs",
+    styleLabel: "voice orb × bitmap type",
+    family: "mono-technical",
+    crossTags: ["painterly-illustrated"],
+    image: "screenshots/IMG_E68AA6EE6BD6-1.jpeg",
+    source: null,
+    summary: "An AI voice platform puts a luminous blue waveform sculpture above a large bitmap-style promise. Sparse navigation and small side labels keep the white page from feeling like a standard software hero.",
+    vocabulary: ["blue waveform sculpture", "particle-mesh surface", "bitmap display line", "side-index labels", "white-space theatre", "black CTA capsule", "editorial bottom split"],
+    notes: [
+      "The central orb carries the first impression. Its tiny repeated lines suggest sound data while its soft, fluid shape keeps it expressive.",
+      "A vertical list of voice capabilities sits to the left of the image like an index, adding navigational context without a card or feature grid.",
+      "The oversized bitmap headline starts at the lower left, while the supporting copy and actions form a smaller column at the lower right.",
+      "The black action pill and near-white secondary control provide clear hierarchy without adding a colour that would compete with the blue form."
+    ],
+    palette: ["#FFFFFF", "#F7FAFF", "#B7E4FD", "#388AD5", "#163F8A", "#090909"],
+    typeStack: { display: "Large bitmap or dot-matrix sans, 400, for the promise", body: "Neutral sans, 400, small and compact", ui: "Neutral sans, 400–500, sparse navigation" },
+    brief: "Make an AI voice platform feel both technically advanced and emotionally open. Give the hero one beautiful data-like blue form, large enough to command attention but soft enough to suggest sound rather than machinery. Place the promise below it in a distinctive bitmap display voice; keep the rest of the interface almost invisible.",
+    prompt: "Create a white AI voice landing hero with a thin, quiet navigation row across the top, login text, and a black signup pill. Centre a large luminous abstract blue waveform orb in the upper-middle: fluid folds built from thousands of tiny horizontal lines or dots, with a faint blue reflection below. To the orb's left, place a sparse vertical list of voice-related product areas connected by fine grey rules. At the bottom, split the layout: a huge two-line black bitmap-style headline on the left, a narrow paragraph and black/white pill actions on the right. Use ample white space, no dark section, and no card grid.",
+    imageRecipe: "IMAGE RECIPE — fill [SUBJECT], render at 1:1, 2K\n\n[SUBJECT: a hovering fluid sculpture made of fine blue sound-wave filaments] abstract three-dimensional folded form, thousands of evenly spaced microscopic luminous lines and dot-like particles tracing curved membranes and deep inner folds, electric-blue core with icy cyan rim highlights, soft reflection and diffused glow immediately below, STRICT palette: white #FFFFFF, ice blue #B7E4FD, bright blue #388AD5, deep blue #163F8A, no purple, no black background, isolated on pure white, no text, no logos, no people."
   }
 ];
