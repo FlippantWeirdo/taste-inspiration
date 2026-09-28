@@ -1280,5 +1280,66 @@ export const LIBRARY = [
     brief: "Make an AI voice platform feel both technically advanced and emotionally open. Give the hero one beautiful data-like blue form, large enough to command attention but soft enough to suggest sound rather than machinery. Place the promise below it in a distinctive bitmap display voice; keep the rest of the interface almost invisible.",
     prompt: "Create a white AI voice landing hero with a thin, quiet navigation row across the top, login text, and a black signup pill. Centre a large luminous abstract blue waveform orb in the upper-middle: fluid folds built from thousands of tiny horizontal lines or dots, with a faint blue reflection below. To the orb's left, place a sparse vertical list of voice-related product areas connected by fine grey rules. At the bottom, split the layout: a huge two-line black bitmap-style headline on the left, a narrow paragraph and black/white pill actions on the right. Use ample white space, no dark section, and no card grid.",
     imageRecipe: "IMAGE RECIPE — fill [SUBJECT], render at 1:1, 2K\n\n[SUBJECT: a hovering fluid sculpture made of fine blue sound-wave filaments] abstract three-dimensional folded form, thousands of evenly spaced microscopic luminous lines and dot-like particles tracing curved membranes and deep inner folds, electric-blue core with icy cyan rim highlights, soft reflection and diffused glow immediately below, STRICT palette: white #FFFFFF, ice blue #B7E4FD, bright blue #388AD5, deep blue #163F8A, no purple, no black background, isolated on pure white, no text, no logos, no people."
+  },
+  {
+    id: "cencori-hero",
+    title: "Cencori — Hero",
+    styleLabel: "black infrastructure × green seam",
+    family: "neon-dark",
+    crossTags: ["cinematic-atmosphere", "mono-technical"],
+    image: "screenshots/Screenshot 2026-09-28 at 01.22.20.png",
+    source: "https://cencori.com/",
+    summary: "An AI infrastructure hero built almost entirely from black space and a monumental stack of brushed-metal planes. One narrow green light seam gives the structure its only colour while a compact white promise anchors the lower left.",
+    vocabulary: [
+      "monumental metal stack", "green light seam", "brushed-steel planes",
+      "black negative space", "lower-left promise", "architectural compute metaphor",
+      "restrained utility nav", "edge-lit depth"
+    ],
+    notes: [
+      "The image mass sits to the right while the left half remains nearly empty, creating room for the headline without a scrim.",
+      "Closely spaced vertical metal slabs suggest racks or processors without illustrating literal hardware; repeated edges establish scale and rhythm.",
+      "A single emerald seam reveals the depth between planes and prevents the near-black composition from flattening.",
+      "The headline is deliberately small compared with the object and pinned low rather than centred, giving the hero the pace of an architectural photograph.",
+      "White navigation and the pale contact button stay legible but secondary to the physical form."
+    ],
+    palette: ["#050606", "#101416", "#303738", "#777E7E", "#17D8A8", "#F2F3EF"],
+    typeStack: {
+      display: "Neutral grotesk, 500, tight three-line headline",
+      body: "Neutral sans, 400, reserved for supporting sections",
+      ui: "Small neutral grotesk, 500, with minimal navigation chrome"
+    },
+    brief: "Give an AI infrastructure company physical weight. Show computing capacity as an immense, precise architectural object rather than a cloud diagram or a chip icon. Let black space do most of the composition work, use one green shaft of light to reveal the structure, and keep the verbal promise concise and low in the frame.",
+    prompt: "Build a full-viewport AI infrastructure landing hero on near-black #050606. Place a white geometric wordmark top-left, five quiet navigation links across the upper middle, and a translucent console control plus a small pale contact pill top-right. Fill the right half with a huge close-cropped 3D arrangement of brushed black-metal vertical slabs and horizontal fins, receding into darkness. Put one narrow emerald #17D8A8 light seam deep between the central slabs; use only silver edge highlights elsewhere. Leave the left half mostly black. Anchor a white, three-line, roughly 64px neutral-grotesk promise near the lower-left corner. No feature cards, gradients, particle field, or extra accent colours.",
+    imageRecipe: "IMAGE RECIPE — fill [SUBJECT], render at 16:9, 2K\n\n[SUBJECT: monumental vertical slabs of brushed black metal arranged like an abstract compute infrastructure] extreme close architectural product render, dense stacked planes filling the RIGHT half, occasional horizontal fins extending toward the right edge, the LEFT half falling into nearly pure black empty space for typography, one narrow emerald-green illuminated seam visible between central slabs, fine linear brushing on metal, hard silver edge reflections and deep layered shadows, STRICT palette: black #050606, graphite #303738, cool silver #777E7E, emerald #17D8A8 only at the seam, no blue or purple, no people, no text, no logos."
+  },
+
+  {
+    id: "cencori-thesis",
+    title: "Cencori — Our Thesis",
+    styleLabel: "overscale statement × tonal fade",
+    family: "editorial-grotesk",
+    crossTags: ["neon-dark"],
+    image: "screenshots/Screenshot 2026-09-28 at 01.22.39.png",
+    source: "https://cencori.com/",
+    summary: "A stark thesis section where one enormous paragraph fills the black canvas. Its opening phrase is white, then the text steps through greys until the final line nearly disappears into the background.",
+    vocabulary: [
+      "full-width thesis", "tonal text fade", "overscale paragraph", "black-on-black ending",
+      "left-edge alignment", "reading as scroll reveal", "single-statement section"
+    ],
+    notes: [
+      "The small 'Our thesis' label gives context, then yields almost the entire viewport to one uninterrupted statement.",
+      "The type is set at display scale across nearly the full width, so line breaks create the composition rather than a grid or illustration.",
+      "The first line begins in warm white, the next turns medium grey, and later lines approach black. The fade creates an implied reading progression.",
+      "Large empty space below the paragraph slows the transition and lets the fading final word linger."
+    ],
+    palette: ["#050505", "#F2F2EF", "#B8B9B7", "#777977", "#292B2A"],
+    typeStack: {
+      display: "Neutral grotesk, 500–600, extremely large with tight tracking and line-height",
+      label: "Small neutral sans, 400, muted grey",
+      body: "The display paragraph carries all narrative content"
+    },
+    brief: "State the company's thesis with the conviction of a manifesto, using typography alone. Make the first words unmistakably clear, then let the rest of the thought recede through grey into black as the reader moves down the page. Keep the canvas empty around the statement and avoid charts, diagrams, buttons, and decorative elements.",
+    prompt: "Create a nearly full-viewport editorial section on solid black #050505. At the upper-left margin place a small muted-grey label reading 'Our thesis'. Begin the main statement about 180px below it, aligned to the same left edge and stretching across almost the entire width. Set the copy in a heavy neutral grotesk around 118px on a 1900px desktop, with tight tracking and line-height; let it wrap into approximately five long lines. Start the opening phrase in warm white #F2F2EF, move through #B8B9B7 and #777977 by the middle, and fade the last lines toward #292B2A. Keep a broad area of black below the final line. Do not use a card, image, CTA, or gradient-filled lettering.",
+    imageRecipe: "IMAGE RECIPE — fill [SUBJECT], render at 16:9, 2K\n\n[SUBJECT: an empty architectural interior disappearing into darkness] barely perceptible layered depth, broad uninterrupted black area suitable as a background for oversized editorial typography, faint graphite surfaces only near the far edges, STRICT palette: black #050505, charcoal #292B2A, no saturated colour, no visible light source, no objects, no people, no text, no logos."
   }
 ];
