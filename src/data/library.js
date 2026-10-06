@@ -1341,5 +1341,67 @@ export const LIBRARY = [
     brief: "State the company's thesis with the conviction of a manifesto, using typography alone. Make the first words unmistakably clear, then let the rest of the thought recede through grey into black as the reader moves down the page. Keep the canvas empty around the statement and avoid charts, diagrams, buttons, and decorative elements.",
     prompt: "Create a nearly full-viewport editorial section on solid black #050505. At the upper-left margin place a small muted-grey label reading 'Our thesis'. Begin the main statement about 180px below it, aligned to the same left edge and stretching across almost the entire width. Set the copy in a heavy neutral grotesk around 118px on a 1900px desktop, with tight tracking and line-height; let it wrap into approximately five long lines. Start the opening phrase in warm white #F2F2EF, move through #B8B9B7 and #777977 by the middle, and fade the last lines toward #292B2A. Keep a broad area of black below the final line. Do not use a card, image, CTA, or gradient-filled lettering.",
     imageRecipe: "IMAGE RECIPE — fill [SUBJECT], render at 16:9, 2K\n\n[SUBJECT: an empty architectural interior disappearing into darkness] barely perceptible layered depth, broad uninterrupted black area suitable as a background for oversized editorial typography, faint graphite surfaces only near the far edges, STRICT palette: black #050505, charcoal #292B2A, no saturated colour, no visible light source, no objects, no people, no text, no logos."
+  },
+
+  {
+    id: "mota-features",
+    title: "Mota — Features",
+    styleLabel: "product collage × soft utility",
+    family: "app-surface",
+    crossTags: ["editorial-grotesk", "bento-studio"],
+    image: "screenshots/Screenshot 2026-10-06 at 22.03.32.png",
+    source: "https://mota-platform.webflow.io/#features",
+    summary: "A remote-collaboration product introduces itself with a sparse centred promise, then lets oversized interface cards tumble into view around the main app. Powder-blue emphasis and faint shadows soften an otherwise black-and-white utility aesthetic.",
+    vocabulary: [
+      "floating utility nav", "masked accent word", "cropped product stage", "tilted interface cards",
+      "depth-by-overlap", "dotted workspace canvas", "soft monochrome controls", "single pastel accent"
+    ],
+    notes: [
+      "The compact floating navigation repeats the product's rounded control language and places the logo in the centre as a visual hinge.",
+      "A cyan capsule masks the final word of the headline, turning a short piece of live or changing copy into the hero's only colour event.",
+      "The product demonstration begins below the fold line: a dark application frame anchors several white feature panels that overlap it at opposing angles.",
+      "Rotation, crop, and occlusion create the sense of many capabilities without shrinking them into an equal card grid.",
+      "Very soft grey borders and shadows keep the UI legible against white while preserving the page's low-contrast calm."
+    ],
+    palette: ["#FFFFFF", "#F4F5F6", "#D9DDE0", "#9BD6DF", "#55575A", "#191919"],
+    typeStack: {
+      display: "Rounded geometric sans, 600, centred with compact line-height",
+      body: "Rounded geometric sans, 400, medium-grey and centred",
+      ui: "Rounded sans, 400–600, used consistently across navigation and product controls"
+    },
+    brief: "Make a browser-based collaboration suite feel approachable without hiding its breadth. Lead with a short, friendly promise and one quiet pastel signal, then prove the product through a theatrical pile-up of real interface surfaces. The composition should feel active and abundant, while the surrounding page remains spacious and controlled.",
+    prompt: "Build a white desktop SaaS hero for a remote collaboration platform. Float a wide white pill navigation near the top with four grey text links and a square black logo centred between the pairs. Set a large, two-line black rounded-grotesk headline in the middle; place the changing final word inside a wide cyan #9BD6DF rounded rectangle. Add two centred lines of grey supporting copy and a compact black waitlist button. In the lower half, reveal a large dark-framed product window on a faint dotted canvas. Overlap it with four oversized white UI panels for remote control, partner connection, storage, and another feature; rotate the left and right panels by roughly 4–7 degrees, crop them at the viewport edges, and use soft directional shadows. Keep all other colour nearly monochrome.",
+    imageRecipe: "IMAGE RECIPE — fill [SUBJECT], render at 16:9, 2K\n\n[SUBJECT: a layered collage of remote-control and file-sharing application panels] crisp desktop SaaS interface mockup, one large dark-framed workspace behind several oversized white control cards, cards entering from the lower-left and lower-right at subtle opposing angles, fields, radio controls and quiet grey labels visible but no readable brand names, faint dotted canvas behind, soft realistic elevation and broad white negative space above, STRICT palette: white #FFFFFF, mist #F4F5F6, line grey #D9DDE0, cyan #9BD6DF, charcoal #191919, no saturated warm colours, no people, no device hardware, no logos."
+  },
+
+  {
+    id: "mota-extension",
+    title: "Mota — Extension",
+    styleLabel: "numbered feature × app proof",
+    family: "editorial-grotesk",
+    crossTags: ["app-surface", "mono-technical"],
+    image: "screenshots/Screenshot 2026-10-06 at 22.04.17.png",
+    source: "https://mota-platform.webflow.io/#features",
+    summary: "A near-empty feature section pairs a numbered vertical rail and concise collaboration pitch with one enlarged extension window. A violet marker and cyan 3D figure add just enough colour to turn a restrained product explainer into a memorable composition.",
+    vocabulary: [
+      "numbered section rail", "hairline progress track", "editorial feature split", "extension-window proof",
+      "violet active marker", "one-click meeting field", "cyan 3D mascot", "asymmetric white space"
+    ],
+    notes: [
+      "The left rail makes the section part of a three-step sequence; only the active segment receives violet colour, so progress is legible without a bulky component.",
+      "Copy occupies a narrow middle column and stays vertically centred against the product window, creating a clear read-then-inspect path.",
+      "The extension mockup is shown large enough for tabs, actions, and the meeting-code field to remain meaningful rather than decorative.",
+      "A small cyan 3D figure interrupts the otherwise flat interface and gives the product its only expressive image.",
+      "The floating navigation remains visible above the section, tying the feature story back to the landing-page frame."
+    ],
+    palette: ["#FFFFFF", "#F4F4F6", "#D7D9DC", "#7447FF", "#54CBD8", "#181818"],
+    typeStack: {
+      display: "Rounded geometric sans, 600, large two-line feature title",
+      body: "Rounded geometric sans, 400, relaxed four-line measure",
+      ui: "Compact rounded sans, 400–600, with tabular numerals in the meeting code"
+    },
+    brief: "Explain one collaboration capability with editorial restraint and concrete product evidence. Make the sequence visible, keep the verbal case short, and enlarge the extension interface until its main action can be understood at a glance. Use colour only to mark the active step and animate the product illustration.",
+    prompt: "Create a spacious white product-feature section beneath a floating pill navigation. Use a three-row vertical index at the far left with the numerals 1, 2, and 3, separated by thin grey tracks; colour only the active upper track violet #7447FF. In the centre-left, set a small violet feature marker followed by a large two-line black headline and a short grey paragraph about remote meetings. On the right, show a tall rounded browser-extension window with a pale grey header, black wordmark placeholder, three segmented tabs, a cyan abstract 3D figure on a faint grid, a bold one-line message, supporting copy, a black meeting button, and a pale green-outlined code field. Keep the columns vertically centred, leave generous white space, and avoid extra cards or background decoration.",
+    imageRecipe: "IMAGE RECIPE — fill [SUBJECT], render at 4:3, 2K\n\n[SUBJECT: a playful abstract figure reclining in a floating ribbon chair] minimal studio-lit 3D object for a collaboration app, compact human-like form built from a matte charcoal sphere and a folded turquoise-to-cyan ribbon body, gentle depth and contact shadow, subtle square construction grid behind the object, isolated composition with generous breathing room, STRICT palette: charcoal #282828, cyan #54CBD8, turquoise #2EAFC2, white #FFFFFF, no purple on the object, no facial features, no text, no logos, no photoreal person."
   }
 ];
