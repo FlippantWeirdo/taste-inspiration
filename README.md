@@ -32,7 +32,7 @@ work, because browsers block ES modules over `file://`.
 
 ## What's in it
 
-- **40 entries** across **7 design types**, all with screenshots
+- **49 entries** across **8 design types**, all with screenshots
 - [fora.so](https://fora.so/) is entry `fora`;
   [contentarchitecture.dev](https://www.contentarchitecture.dev/) is `content-architecture`
 
@@ -40,6 +40,7 @@ work, because browsers block ES modules over `file://`.
 
 | id | name | the short version |
 |---|---|---|
+| `mobile` | Mobile | expressive app screens, playful data, organic frames, and tactile controls |
 | `editorial-grotesk` | Editorial Grotesk | huge tight-tracked sans on calm ground |
 | `mono-technical` | Mono Technical | monospace, visible grid, status-bar furniture |
 | `cinematic-atmosphere` | Cinematic Atmosphere | one full-bleed photograph carrying the mood |
@@ -61,7 +62,13 @@ work, because browsers block ES modules over `file://`.
 Search covers **everything** — titles, vocabulary, notes, briefs, prompts, recipes, hex
 codes. Multiple words are AND-ed, so `dark mono grid` narrows properly.
 
-URLs are shareable: `#family/neon-dark`, `#entry/dune`, `#q/gradient`.
+URLs are shareable: `#family/mobile`, `#family/neon-dark`, `#entry/dune`, `#q/gradient`.
+
+The **Mobile** tab collects portrait app references. Their gallery and detail previews
+show the entire screenshot, including bottom navigation, rather than cropping to a
+desktop frame. Each includes vocabulary, notes, a palette, a brief, a build prompt,
+and an image recipe. Names such as Mood, Alex, Scallop, and Spectrum are descriptive
+library labels for screenshot-only references, not verified product attributions.
 
 ## Adding an entry
 
@@ -78,6 +85,7 @@ renders a typographic card built from the entry's palette, as `fora` does.
   title: "Brand or Piece Name",
   styleLabel: "short × descriptor",  // shown top-right on the card
   family: "neon-dark",               // must match an id in families.js
+  format: "mobile",                 // optional; keeps portrait screenshots uncropped
   crossTags: ["mono-technical"],     // optional; entry also shows under these filters
   image: "screenshots/Screenshot 2026-07-25 224108.png",  // spaces are fine
   source: "https://example.com/",    // or null

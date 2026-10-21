@@ -8,7 +8,7 @@ export default function Card({ entry, index, total, onOpen }) {
 
   return (
     <button type="button" className="card" onClick={() => onOpen(entry.id)}>
-      <div className="card-figure">
+      <div className={"card-figure" + (entry.format === "mobile" ? " card-figure--mobile" : "")}>
         <Figure key={entry.id} entry={entry} />
       </div>
       <div className="card-body">

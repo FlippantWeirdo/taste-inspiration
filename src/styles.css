@@ -195,6 +195,11 @@ main { max-width: var(--max); margin: 0 auto; padding: 0 clamp(16px, 3vw, 40px) 
 }
 .card:hover .card-figure img { transform: scale(1.03); }
 
+/* Phone references keep their full composition, including bottom navigation. */
+.card-figure--mobile { aspect-ratio: 4 / 5; }
+.card-figure--mobile img { object-fit: contain; padding: 16px; }
+.card:hover .card-figure--mobile img { transform: none; }
+
 .figure-fallback {
   position: absolute; inset: 0;
   display: grid; place-content: center; gap: 13px; padding: 22px;
@@ -275,6 +280,8 @@ main { max-width: var(--max); margin: 0 auto; padding: 0 clamp(16px, 3vw, 40px) 
 .sheet-figure img { width: 100%; display: block; object-fit: cover; object-position: top center; }
 .sheet-figure:empty { display: none; }
 .sheet-figure .figure-fallback { position: relative; padding: 60px 22px; }
+.sheet-figure--mobile { height: min(72vh, 720px); max-height: none; padding: 20px; }
+.sheet-figure--mobile img { height: 100%; object-fit: contain; }
 
 .sheet-body { padding: 24px clamp(18px, 3vw, 34px) 4px; display: grid; gap: 20px; }
 

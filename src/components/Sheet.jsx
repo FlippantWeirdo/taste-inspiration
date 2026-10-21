@@ -112,7 +112,7 @@ export default function Sheet({ entry, index, total, onClose, onStep, onCopy }) 
           ✕
         </button>
 
-        <div className="sheet-figure">
+        <div className={"sheet-figure" + (entry.format === "mobile" ? " sheet-figure--mobile" : "")}>
           <Figure key={entry.id} entry={entry} />
         </div>
 

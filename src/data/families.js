@@ -3,6 +3,19 @@
 
 export const FAMILIES = [
   {
+    id: "mobile",
+    name: "Mobile",
+    blurb:
+      "Expressive interfaces made for the hand: sculptural cards, playful data, characterful onboarding, and product photography that breaks out of the rectangle.",
+    tells: [
+      "portrait composition with a clear thumb-level action",
+      "oversized rounded surfaces and floating bottom navigation",
+      "personality through colour, illustration, and organic image masks",
+      "large readable numbers and compact, tactile controls"
+    ],
+    swatch: ["#F5F4F0", "#F6A6E3", "#F8F56A", "#1D1D1B"]
+  },
+  {
     id: "editorial-grotesk",
     name: "Editorial Grotesk",
     blurb:
