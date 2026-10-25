@@ -1602,5 +1602,86 @@ export const LIBRARY = [
     brief: "Make beauty discovery feel like browsing a playful fashion editorial. Let a single art-directed image dominate inside an organic scalloped frame, then echo that silhouette in small controls. Keep price, product identity, and the purchase action unmistakable, with yellow reserved for the most inviting actions.",
     prompt: "Build a 390px mobile beauty-discovery screen on off-white #F5F5F1. At the top place a black flower mark with yellow centre, a compact carousel indicator, and white flower-outline notification/cart buttons. Use a large smoothly scalloped photo mask containing an editorial beauty image with a crimson backdrop. Add a thick white edge and a grey dashed offset contour. Overlay a white discount circle at the top, yellow Buy circle at lower-left, and white next-arrow circle at lower-right. Below, centre category, uppercase product name, current and struck-through prices, and dotted tag pills. Add All / New / Me filters with New in a black pill. Float a white five-item bottom-navigation capsule beside a detached yellow plus button; preserve safe-area clearance. Make carousel and filters work, label every icon control, and use live text for product information.",
     imageRecipe: "IMAGE RECIPE — fill [SUBJECT], render at 1:1, 2K\n\n[SUBJECT: an adult beauty model resting her head on folded arms beside a small amber perfume bottle and a glass vase of white flowers] intimate fashion-editorial still life, soft daylight, face at centre-right, flowers entering from upper-left, tabletop along the bottom, calm direct gaze, deep crimson backdrop, STRICT palette: crimson #A3213B, warm skin tones, ivory flowers, muted green leaves, amber glass, pale-grey tabletop, no text, no logos, leave lower corners quiet for circular UI overlays."
+  },
+  {
+    id: "ardia-grass-hero",
+    title: "Ardia — Touch Grass",
+    styleLabel: "interactive meadow × condensed type",
+    family: "painterly-illustrated",
+    crossTags: ["editorial-grotesk", "mono-technical"],
+    image: "screenshots/Screenshot 2026-10-25 at 22.16.25.png",
+    source: null,
+    summary: "A browser landing hero turns a painted meadow into an interactive surface: moving the cursor affects the foreground grass. Monumental black TOUCH GRASS. lettering, a thickly painted yellow sun, and segmented download buttons give the pastoral scene a blunt, playful voice.",
+    vocabulary: ["cursor-responsive grass", "interactive meadow", "impasto landscape", "monumental condensed type", "painted sun disc", "segmented download controls", "mono navigation", "ragged paint edge"],
+    notes: [
+      "The foreground grass responds to cursor movement, as reported with the reference. That interaction is part of the hero's idea: the invitation to touch grass becomes something the visitor can actually do.",
+      "Huge uppercase condensed lettering stacks at the left, leaving the sun and most of the painted sky visible to the right. Its solid black mass cuts through the busy brush texture.",
+      "The scene has distinct depths: textured sky and sun, rolling green hills, then a dense foreground of grass with scattered pink, purple, yellow, and white strokes.",
+      "The download controls are divided into a bold action and a quieter monospace platform or release label. Hard edges and dark rules give the soft landscape a practical interface layer.",
+      "A rough white paint edge finishes the bottom of the hero. The screenshot records one still frame; it does not establish the original animation or rendering technique."
+    ],
+    palette: ["#F2EEDF", "#15130E", "#D6DBD8", "#F9C32E", "#8D9C48", "#B9C76D", "#244B3B", "#A68BC1"],
+    typeStack: {
+      display: "Very heavy condensed grotesk, uppercase, tight tracking and compact line-height",
+      body: "Neutral sans, regular, dark ink over the pale landscape",
+      ui: "Uppercase monospace navigation and secondary labels; bold condensed download labels"
+    },
+    brief: "Introduce a browser through a small moment of outdoor play. Let an expressive painted landscape fill the viewport, then make the foreground grass react to the visitor's cursor so the headline becomes an invitation to explore. Balance that tactile, pastoral world with enormous blunt typography and clearly divided download controls. The page should feel handmade and lively while keeping the product proposition and next action immediately readable.",
+    prompt: "Build a responsive browser landing hero for Ardia. At desktop size use a full-viewport impasto meadow: pale cream and grey-blue sky, a thick yellow sun slightly right of centre, rolling olive and deep-green hills, and dense foreground grass with sparse wildflower strokes. Overlay a compact logo at top-left and uppercase mono navigation at top-right with a solid near-black Download button. Place TOUCH / GRASS. at the left in an extremely heavy condensed sans, approximately clamp(96px, 14vw, 270px), with tight tracking and 0.88 line-height. Under it place two lines of product copy at about 24px, then two rectangular segmented controls: a near-black Download for Mac / Apple Silicon action and a cream outlined Nightly / Wet Paint action. Add a small source link below and an irregular white painted edge at the bottom. Crucially, implement actual cursor-responsive foreground grass: use a separate canvas or WebGL layer with painterly blade clusters; pointer proximity and movement should locally bend or displace nearby blades, with a smooth spring return after the pointer passes. Keep the sky and hills visually stable and the text and buttons above the interactive layer. This is a suggested recreation technique, not a claim about the original renderer. Track pointer coordinates relative to the hero, keep interaction from intercepting buttons, pause rendering offscreen, and provide a composed still meadow for reduced-motion preferences and devices without hover. On narrow screens reduce the headline, wrap the controls, and preserve readable copy against a quiet portion of the scene. Use cream #F2EEDF, ink #15130E, sun #F9C32E, olive #8D9C48, light grass #B9C76D, and deep green #244B3B.",
+    imageRecipe: "IMAGE RECIPE — fill [SUBJECT], render at 16:9, 2K\n\n[SUBJECT: a sunlit meadow with rolling hills and a dense foreground of wild grass] tactile impasto oil painting, thick directional strokes across a pale cream and grey-blue sky, one golden-yellow sun disc just right of centre, olive hills at left and a deep-green slope at right, fine upright grass strokes in the lower third with sparse lavender, pink, yellow and ivory wildflowers, generous pale negative space across the upper-left for black display type, STRICT palette: cream #F2EEDF, grey-blue #D6DBD8, yellow #F9C32E, olive #8D9C48, pale green #B9C76D, deep green #244B3B, small lavender accents #A68BC1, no people, no buildings, no text, no logos. This supplies the visual reference or static fallback; recreate the foreground separately as an interactive grass layer in the build."
+  },
+  {
+    id: "ardia-browser-playground",
+    title: "Ardia — Browser Playground",
+    styleLabel: "painted stage × product configurator",
+    family: "app-surface",
+    crossTags: ["painterly-illustrated"],
+    image: "screenshots/Screenshot 2026-10-25 at 22.16.59.png",
+    source: null,
+    summary: "A large browser preview sits inside a raised, painted landscape panel on cream paper. A blush tab sidebar, black monospace callout, and compact configuration pills make the product itself the centre of an inviting playground.",
+    vocabulary: ["painted product stage", "blush tab sidebar", "inset browser preview", "configuration pill groups", "mono speech label", "paper texture", "selected ink capsules", "landscape continuity"],
+    notes: [
+      "A broad rounded landscape panel forms a stage around the browser window; visible sky, hills, and a narrow flower bed connect the product demo to the meadow hero.",
+      "The browser's pink sidebar is the primary interface colour. Its compact favourite tiles, vertical tab list, and white selected tab remain distinct from the larger page content at right.",
+      "A small black callout with a downward notch overlaps the upper-left of the stage. White monospace copy and a yellow phrase make it read like a spoken aside.",
+      "Controls sit outside the preview in short outlined groups for tabs, address bar, new tabs, profile, and theme, alongside individual feature controls. Black inner capsules mark the selected options.",
+      "The two centred rows of controls leave the product preview visually dominant. The screenshot shows selectable states, but does not establish every control's behaviour."
+    ],
+    palette: ["#F1EDE2", "#16140F", "#E9CDD3", "#F8F2F3", "#C6DDE2", "#B4C975", "#174C40", "#F5C343"],
+    typeStack: {
+      display: "Product content uses neutral sans headings within a realistic browser frame",
+      ui: "Neutral sans for tabs and option values; uppercase monospace for configuration group labels",
+      accent: "Uppercase monospace on a near-black speech label, with a yellow emphasis phrase"
+    },
+    brief: "Give visitors a product they can inspect and configure before downloading. Keep the browser large, surround it with the same painted world as the hero, and move the configuration controls below so they do not compete with the interface. Use a soft personal-sidebar colour, decisive selected states, and a brief conversational callout to make a technical product feel approachable.",
+    prompt: "Create an Ardia browser-playground section on textured cream #F1EDE2 with a slim header containing the logo, uppercase mono links, and a black Download button. Centre a rounded landscape stage at roughly 1200px max-width with a soft grounded shadow. Paint its backdrop in sky blue, pale green, forest green, and yellow impasto, leaving a strip of grass and tiny flowers along the bottom. Inset a large browser mockup with a blush #E9CDD3 vertical tab sidebar, three window dots, a Personal label, three square favourite shortcuts, six icon-and-title tabs, a white selected-tab capsule, and a New Tab row. At right show a crisp local documentation-style page with a toolbar, search field, heading, explanatory text, and code example. Float a black notched mono callout near the stage's upper-left, with its last phrase in yellow. Beneath the stage place compact outlined pill groups: Tabs (Sidebar / Auto-hide / Top), Address Bar (Toolbar / Auto-hide / Sidebar), New Tabs (Page / Command bar), Profile (Personal / Work), and Theme (Light / Dark), plus New tab, Split view, and Command bar controls. Give selected values black inner pills and wire controls to meaningful local demo states: change tab placement, address-bar visibility, sample profile content, theme, and the appropriate preview panels. Keep demo content local rather than embedding a third-party site. Implement option groups with keyboard support and accessible selected states. At mobile widths wrap the controls and reflow the preview so important UI remains readable. Preserve the painted border around the product.",
+    imageRecipe: "IMAGE RECIPE — fill [SUBJECT], render at 4:3, 2K\n\n[SUBJECT: a decorative meadow backdrop surrounding an empty central product stage] thick palette-knife oil paint with clearly raised ridges, pale blue sky across the top, a yellow sun near upper-right, light olive hill at left and deep forest-green hill at right, a narrow border of grass and tiny wildflowers along the bottom, quiet pale centre to be covered by a live product preview, STRICT palette: sky #C6DDE2, cream #F1EDE2, light green #B4C975, forest #174C40, yellow #F5C343, tiny pink and white flowers, no browser window, no UI, no text, no logos. Render the browser frame and all controls separately as live interface elements."
+  },
+  {
+    id: "ardia-browser-features",
+    title: "Ardia — Browser Features",
+    styleLabel: "alternating feature rows × impasto frames",
+    family: "app-surface",
+    crossTags: ["painterly-illustrated", "editorial-grotesk"],
+    image: "screenshots/Screenshot 2026-10-25 at 22.20.03.png",
+    source: null,
+    summary: "An alternating feature story pairs large browser views with short, bold claims on textured cream. Painted landscape frames repeat around split-view and floating-video examples, carrying the meadow identity into practical product explanations.",
+    vocabulary: ["alternating feature rows", "impasto screenshot frame", "numbered mono eyebrow", "two-line benefit headline", "cream brush texture", "split-pane preview", "floating video inset", "asymmetric breathing room"],
+    notes: [
+      "The first visible row puts the browser at left and copy at right; the next reverses that relationship. Broad vertical spacing makes each feature a separate beat.",
+      "Screenshots occupy roughly two-thirds of each row while the copy uses a narrow measure, a tiny numbered monospace eyebrow, a heavy two-line headline, and one short paragraph.",
+      "Each screenshot is inset into the same rounded, painted landscape frame, giving heterogeneous product states a consistent visual boundary.",
+      "The split-view example places dark documentation beside a white article inside one browser shell. The following example includes a small video floating over the lower-right of an article.",
+      "Subtle cream-on-cream brush strokes extend the illustration language across the page without competing with the sharper product screenshots."
+    ],
+    palette: ["#F1EDE2", "#E7E2D5", "#171610", "#73786D", "#C6DDE2", "#A8BC6C", "#174C40", "#F5C343", "#E9CDD3"],
+    typeStack: {
+      display: "Bold neo-grotesk, tight tracking, compact two-line benefit headings",
+      body: "Neutral sans, regular, muted grey-green with generous line-height",
+      ui: "Small tracked uppercase monospace for feature numbers and navigation"
+    },
+    brief: "Explain browser features through recognisable moments of use. Give each benefit a large, legible product view and a short human headline, then alternate the composition to sustain attention down the page. Carry the hero's painted landscape into every frame and the paper ground so the feature section feels like one continuous world rather than an unrelated product checklist.",
+    prompt: "Build a responsive Ardia browser feature section on warm cream #F1EDE2 with a very subtle oversized brush-stroke texture. Keep a restrained logo-and-mono-link header above a centred content column around 1200px wide. Use two alternating rows, each with a roughly 2:1 image-to-copy width ratio, a 40px column gap, and around 140px between rows. Row one places a rounded impasto landscape frame at left around a browser preview with a muted dark sidebar and two side-by-side panes: dark developer documentation and a white reference article. At right use a tiny coloured paint-dab marker with NO. 02 in tracked mono, a bold 40px two-line headline 'Two pages, one window.', and a brief grey-green explanation. Row two places copy at left with NO. 03 and 'Refuses to leave the picture.', and a landscape-framed browser at right with a pink sidebar, a white article, and a small floating video inset at lower-right. If implementing the demonstrations, use local sample pages and a controlled video preview to show the states. Set headings in tight bold grotesk, body at 17–18px with 1.5 line-height, and keep the painted margins visible around each sharp browser frame. Use restrained soft shadows. At narrow widths stack each feature's visual and corresponding copy in reading order and reduce the large row gaps. All explanatory text should remain live HTML.",
+    imageRecipe: "IMAGE RECIPE — fill [SUBJECT], render at 3:2, 2K\n\n[SUBJECT: a hand-painted meadow border for a browser feature illustration] thick impasto oil-paint ridges, pale blue sky with one warm yellow sun at the top, olive-green and deep forest-green hills sweeping along the sides, a thin grassy flower strip at the base, keep the central rectangle quiet for an inset product screenshot, STRICT palette: cream #F1EDE2, blue #C6DDE2, olive #A8BC6C, forest #174C40, sun #F5C343, small pink and white flower marks, no interface, no text, no logos. Separately derive a very low-contrast cream-on-cream brush texture for the page ground; compose the browser previews as live UI or supplied screenshots."
   }
 ];

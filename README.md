@@ -32,7 +32,7 @@ work, because browsers block ES modules over `file://`.
 
 ## What's in it
 
-- **49 entries** across **8 design types**, all with screenshots
+- **52 entries** across **8 design types**, all with screenshots
 - [fora.so](https://fora.so/) is entry `fora`;
   [contentarchitecture.dev](https://www.contentarchitecture.dev/) is `content-architecture`
 
