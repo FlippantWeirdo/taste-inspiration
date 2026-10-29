@@ -1683,5 +1683,250 @@ export const LIBRARY = [
     brief: "Explain browser features through recognisable moments of use. Give each benefit a large, legible product view and a short human headline, then alternate the composition to sustain attention down the page. Carry the hero's painted landscape into every frame and the paper ground so the feature section feels like one continuous world rather than an unrelated product checklist.",
     prompt: "Build a responsive Ardia browser feature section on warm cream #F1EDE2 with a very subtle oversized brush-stroke texture. Keep a restrained logo-and-mono-link header above a centred content column around 1200px wide. Use two alternating rows, each with a roughly 2:1 image-to-copy width ratio, a 40px column gap, and around 140px between rows. Row one places a rounded impasto landscape frame at left around a browser preview with a muted dark sidebar and two side-by-side panes: dark developer documentation and a white reference article. At right use a tiny coloured paint-dab marker with NO. 02 in tracked mono, a bold 40px two-line headline 'Two pages, one window.', and a brief grey-green explanation. Row two places copy at left with NO. 03 and 'Refuses to leave the picture.', and a landscape-framed browser at right with a pink sidebar, a white article, and a small floating video inset at lower-right. If implementing the demonstrations, use local sample pages and a controlled video preview to show the states. Set headings in tight bold grotesk, body at 17–18px with 1.5 line-height, and keep the painted margins visible around each sharp browser frame. Use restrained soft shadows. At narrow widths stack each feature's visual and corresponding copy in reading order and reduce the large row gaps. All explanatory text should remain live HTML.",
     imageRecipe: "IMAGE RECIPE — fill [SUBJECT], render at 3:2, 2K\n\n[SUBJECT: a hand-painted meadow border for a browser feature illustration] thick impasto oil-paint ridges, pale blue sky with one warm yellow sun at the top, olive-green and deep forest-green hills sweeping along the sides, a thin grassy flower strip at the base, keep the central rectangle quiet for an inset product screenshot, STRICT palette: cream #F1EDE2, blue #C6DDE2, olive #A8BC6C, forest #174C40, sun #F5C343, small pink and white flower marks, no interface, no text, no logos. Separately derive a very low-contrast cream-on-cream brush texture for the page ground; compose the browser previews as live UI or supplied screenshots."
+  },
+  {
+    "id": "phantom-trail",
+    "title": "Phantom — Customer Trail",
+    "styleLabel": "serif SaaS × landscape valley",
+    "family": "cinematic-atmosphere",
+    "image": "screenshots/091D845E-26C8-40B3-B660-897EE4C411FE.JPG",
+    "source": null,
+    "summary": "A customer intelligence hero uses a winding path through green hills as a visual metaphor for user journeys.",
+    "vocabulary": [
+      "winding path metaphor",
+      "sunlit valley",
+      "quiet grid field",
+      "centered serif headline",
+      "detached navigation capsules",
+      "dark pill CTA"
+    ],
+    "notes": [
+      "The valley rises from both lower corners, framing a bright central opening for the copy.",
+      "A winding path turns the abstract idea of a customer trail into a concrete visual line.",
+      "Faint square grid marks in the pale sky add a technical layer without interrupting the scene."
+    ],
+    "palette": [
+      "#F3F4F1",
+      "#1D191E",
+      "#33532B",
+      "#85A936",
+      "#E7D658"
+    ],
+    "typeStack": {
+      "display": "High-contrast editorial serif for display; neutral sans for navigation and body"
+    },
+    "brief": "Make behavioral analytics feel legible and exploratory through a landscape that embodies the path customers leave behind.",
+    "prompt": "Build a centered SaaS hero on a pale subtly gridded field. Use a compact segmented navigation at the top, a 64px high-contrast serif headline, muted two-line subhead, and dark rounded CTA. Place green hills across the bottom, rising at both sides around a bright valley and a winding path. Keep copy as live text and preserve its clear central space on smaller screens.",
+    "imageRecipe": "IMAGE RECIPE — fill [SUBJECT], render at 16:9, 2K\n\n[SUBJECT: a winding pale path leading through sunlit green hills toward a bright distant valley], wide composition with clear negative space for interface elements, STRICT palette: pale grey sky, deep forest green, grass green, restrained yellow sunlight, no text, no logos. Render interface and typography separately."
+  },
+  {
+    "id": "wrot-garden",
+    "title": "Wrot — Garden of Thought",
+    "styleLabel": "classical garden × editorial SaaS",
+    "family": "painterly-illustrated",
+    "image": "screenshots/372B733B-6A4E-439F-B8D5-64104D94695E.JPG",
+    "source": null,
+    "summary": "A writing product pairs a classical garden panorama with a restrained editorial layout and italic serif emphasis.",
+    "vocabulary": [
+      "classical garden panorama",
+      "statue focal point",
+      "italic serif emphasis",
+      "floating capsule navigation",
+      "split trust row",
+      "cream editorial canvas"
+    ],
+    "notes": [
+      "The garden image spans nearly the full width below the header, giving the product a distinct place before the pitch appears.",
+      "A compact headline and action block sit opposite a separate trust-logo block beneath the image.",
+      "Small italic annotations within the scene make the landscape feel like an editorial illustration."
+    ],
+    "palette": [
+      "#F3F2EC",
+      "#162426",
+      "#93B7C2",
+      "#4C6740",
+      "#DFD2A1"
+    ],
+    "typeStack": {
+      "display": "Elegant high-contrast serif with italic emphasis; small neutral sans for UI"
+    },
+    "brief": "Give a writing tool the calm and intellectual generosity of a garden built for reflection.",
+    "prompt": "Create a warm cream SaaS landing page inside a softly rounded frame. Place a wordmark, centered capsule navigation and dark contact button in the header. Follow with a wide classical garden panorama. Under it, use a two-column row: a 54px serif headline with one italic word, supporting copy and two actions on the left; a muted customer logo strip on the right. Stack the row on mobile.",
+    "imageRecipe": "IMAGE RECIPE — fill [SUBJECT], render at 16:9, 2K\n\n[SUBJECT: a classical Italian garden with a marble statue, cypress trees and a distant city beneath a bright cloud-filled sky], wide composition with clear negative space for interface elements, STRICT palette: cream stone, cypress green, soft blue sky, pale gold sunlight, no text, no logos. Render interface and typography separately."
+  },
+  {
+    "id": "poieto-login",
+    "title": "Poieto — Knowledge Login",
+    "styleLabel": "painted landscape × split login",
+    "family": "painterly-illustrated",
+    "image": "screenshots/48AFF0A0-74C8-412D-8D1E-32DCA38FE507.JPG",
+    "source": null,
+    "summary": "A knowledge-sharing sign-in combines a Tuscan landscape backdrop with a split card and an inviting editorial message.",
+    "vocabulary": [
+      "landscape-backed login",
+      "split image and form",
+      "soft cream panel",
+      "italic serif headline",
+      "quiet social sign-in",
+      "editorial marginalia"
+    ],
+    "notes": [
+      "The image inside the card is sharper than the surrounding landscape, creating depth while keeping the form legible.",
+      "A large serif headline establishes the emotional promise before compact form fields and a strong dark action.",
+      "Tiny italic captions around the edges extend the editorial voice beyond the form."
+    ],
+    "palette": [
+      "#EBE5D8",
+      "#15191B",
+      "#9EAC78",
+      "#70879A",
+      "#CFB889"
+    ],
+    "typeStack": {
+      "display": "Editorial serif with italic emphasis; compact neutral sans for form labels"
+    },
+    "brief": "Make signing in feel like arriving at a thoughtful place, while keeping the form quick and familiar.",
+    "prompt": "Build a responsive sign-in page over a softly blurred Tuscan landscape. Center a rounded cream card split equally between a crisp terrace image and a form panel. Use a 48px serif headline with an italic final word, concise copy, labelled email and password fields, a dark full-width continue button, and three social sign-in buttons. Include a back link, password visibility control, and accessible validation. Stack the image and form on narrow screens.",
+    "imageRecipe": "IMAGE RECIPE — fill [SUBJECT], render at 16:9, 2K\n\n[SUBJECT: a quiet stone terrace with a book and coffee overlooking a Tuscan valley], wide composition with clear negative space for interface elements, STRICT palette: warm ivory, muted olive, dusty blue, soft terracotta, no text, no logos. Render interface and typography separately."
+  },
+  {
+    "id": "moana-island",
+    "title": "Moana — Remote Teams",
+    "styleLabel": "electric blue × dithered island",
+    "family": "painterly-illustrated",
+    "image": "screenshots/700B186A-93EF-46A4-B63C-986B4FA9F2B8.JPG",
+    "source": null,
+    "summary": "A remote-work platform places a tiny bonsai island in an electric-blue and pink dithered landscape.",
+    "vocabulary": [
+      "electric blue field",
+      "dithered island",
+      "bonsai focal point",
+      "magenta contour waves",
+      "centered white headline",
+      "high-contrast minimal nav"
+    ],
+    "notes": [
+      "The saturated blue sky acts as both brand colour and generous negative space for the headline.",
+      "A miniature tree anchors the lower center while striped pink waves create depth across the full width.",
+      "The hard pixel-like dithering makes a conventional landscape feel digital and graphic."
+    ],
+    "palette": [
+      "#211DDC",
+      "#FFFFFF",
+      "#F551BA",
+      "#F6A0D8",
+      "#1C1C1C"
+    ],
+    "typeStack": {
+      "display": "Clean geometric sans, medium weight, tight centered display"
+    },
+    "brief": "Make a distributed-work product feel vivid and connected through a compact island world with strong digital texture.",
+    "prompt": "Build a full-viewport hero with an electric blue #211DDC background, white logo and sparse top navigation. Center a two-line 64px white sans headline, muted white supporting copy and small white rounded CTA. Fill the lower half with a dithered island, bonsai tree and pink contour waves. Keep the headline above the image and retain the central focal point on mobile.",
+    "imageRecipe": "IMAGE RECIPE — fill [SUBJECT], render at 16:9, 2K\n\n[SUBJECT: a small bonsai tree on a low island surrounded by rhythmic rippling waves], wide composition with clear negative space for interface elements, STRICT palette: electric blue, hot pink, pale pink, white and near-black, no text, no logos. Render interface and typography separately."
+  },
+  {
+    "id": "lala-canyon",
+    "title": "Lala — Workflow Canyon",
+    "styleLabel": "serif SaaS × halftone canyon",
+    "family": "painterly-illustrated",
+    "image": "screenshots/71B88CDA-8754-49A3-8973-F9F77A4AEA10.JPG",
+    "source": null,
+    "summary": "A workflow platform frames a compact serif headline with two halftone canyon walls and a muted customer strip.",
+    "vocabulary": [
+      "halftone canyon walls",
+      "central white clearing",
+      "condensed serif headline",
+      "blue action pill",
+      "status eyebrow",
+      "translucent logo strip"
+    ],
+    "notes": [
+      "The cliffs flank an open white center, turning the natural landscape into a frame for the product message.",
+      "A fine halftone treatment unifies the trees, rock and open space with the interface.",
+      "The muted bottom logo strip grounds the composition without competing with the saturated blue CTA."
+    ],
+    "palette": [
+      "#FCFCF8",
+      "#1F2320",
+      "#1254AB",
+      "#B7B16B",
+      "#7E9C75"
+    ],
+    "typeStack": {
+      "display": "Tall condensed editorial serif display; neutral sans for UI"
+    },
+    "brief": "Give workflow automation a sense of space and clarity with a landscape that opens around the main message.",
+    "prompt": "Create a light landing hero with a simple logo, centered nav and rounded platform button. In the center, stack a small announcement pill, 60px condensed serif headline, two-line grey subhead and blue CTA. Frame the lower half with illustrated canyon walls and trees treated in fine halftone dots, leaving a white opening behind the copy. Add a translucent customer-logo strip across the bottom; stack and simplify the landscape on mobile.",
+    "imageRecipe": "IMAGE RECIPE — fill [SUBJECT], render at 16:9, 2K\n\n[SUBJECT: a sunlit canyon with tree-covered cliffs rising on both sides of an open white center], wide composition with clear negative space for interface elements, STRICT palette: ivory, muted yellow-green, sage, slate grey and small blue accents, no text, no logos. Render interface and typography separately."
+  },
+  {
+    "id": "flowstack-dunes",
+    "title": "Flowstack — Team Workspace",
+    "styleLabel": "dithered dunes × dashboard",
+    "family": "app-surface",
+    "image": "screenshots/77680EFE-D0CE-4FD6-8BAC-D7B50DBCD68A.JPG",
+    "source": null,
+    "summary": "A project-management landing page combines copper-toned dithered dunes with a large, practical dashboard preview.",
+    "vocabulary": [
+      "copper halftone dunes",
+      "emerging dashboard",
+      "centered sans headline",
+      "square segmented CTA",
+      "blue product accent",
+      "cropped product preview"
+    ],
+    "notes": [
+      "The dune slopes rise from the sides and lead the eye toward the dashboard emerging at the bottom center.",
+      "The hero copy is sparse and centered, giving the denser product interface room to demonstrate utility.",
+      "A square segmented action repeats the blue accent used inside the dashboard."
+    ],
+    "palette": [
+      "#FFFFFF",
+      "#17191C",
+      "#E8B17B",
+      "#AA6F52",
+      "#3175E5"
+    ],
+    "typeStack": {
+      "display": "Neutral sans display with compact line-height; small uppercase labels"
+    },
+    "brief": "Present a practical team workspace with a distinctive landscape that guides attention toward the product itself.",
+    "prompt": "Build a white SaaS hero with a slim left-aligned logo and navigation, a compact sign-in control on the right, and a centered 64px sans headline. Add a blue uppercase eyebrow, muted short description and a rectangular segmented demo CTA with blue arrow. Use copper and peach dithered dunes rising from the bottom corners behind a large light project-dashboard preview. Keep the preview readable and adapt it to a simplified mobile view.",
+    "imageRecipe": "IMAGE RECIPE — fill [SUBJECT], render at 16:9, 2K\n\n[SUBJECT: flowing desert dunes curving in from both sides around a clear central opening], wide composition with clear negative space for interface elements, STRICT palette: white, warm peach, copper, rust and restrained blue, no text, no logos. Render interface and typography separately."
+  },
+  {
+    "id": "moss-cove",
+    "title": "Moss — Coastal Assistant",
+    "styleLabel": "coastal cove × editorial SaaS",
+    "family": "cinematic-atmosphere",
+    "image": "screenshots/CE5C966C-94B3-4A26-96D7-6880A03E4846.JPG",
+    "source": null,
+    "summary": "A work assistant landing page opens onto a turquoise cove, using a centered serif message and quiet green action.",
+    "vocabulary": [
+      "turquoise cove",
+      "rocky coastal framing",
+      "white sky clearing",
+      "centered serif statement",
+      "deep teal CTA",
+      "frosted customer strip"
+    ],
+    "notes": [
+      "Rocky shores approach from both sides, leaving the water and white central clearing to guide the eye.",
+      "The serif headline and restrained teal CTA sit above the landscape, preserving clarity over the detailed scene.",
+      "A low-contrast customer strip overlays the bottom edge and closes the hero."
+    ],
+    "palette": [
+      "#FFFFFF",
+      "#273331",
+      "#09635D",
+      "#4BAEAA",
+      "#A0A577"
+    ],
+    "typeStack": {
+      "display": "Refined high-contrast serif for display; neutral sans for body and navigation"
+    },
+    "brief": "Make an everyday assistant feel calm and spacious by pairing a clear promise with a serene coastal view.",
+    "prompt": "Create a white landing hero with a simple top navigation, small centered eyebrow, 60px two-line serif headline, muted short copy and deep teal pill CTA. Below, show a turquoise cove framed by rocky, green shores on both sides, leaving white space around the message. Overlay a muted translucent customer strip at the bottom. Preserve the composition and legible text at smaller widths.",
+    "imageRecipe": "IMAGE RECIPE — fill [SUBJECT], render at 16:9, 2K\n\n[SUBJECT: a clear turquoise cove framed by low rocky shores with Mediterranean greenery], wide composition with clear negative space for interface elements, STRICT palette: white, turquoise, deep teal, pale stone and muted olive, no text, no logos. Render interface and typography separately."
   }
 ];
