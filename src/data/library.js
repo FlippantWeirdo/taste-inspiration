@@ -1928,5 +1928,68 @@ export const LIBRARY = [
     "brief": "Make an everyday assistant feel calm and spacious by pairing a clear promise with a serene coastal view.",
     "prompt": "Create a white landing hero with a simple top navigation, small centered eyebrow, 60px two-line serif headline, muted short copy and deep teal pill CTA. Below, show a turquoise cove framed by rocky, green shores on both sides, leaving white space around the message. Overlay a muted translucent customer strip at the bottom. Preserve the composition and legible text at smaller widths.",
     "imageRecipe": "IMAGE RECIPE — fill [SUBJECT], render at 16:9, 2K\n\n[SUBJECT: a clear turquoise cove framed by low rocky shores with Mediterranean greenery], wide composition with clear negative space for interface elements, STRICT palette: white, turquoise, deep teal, pale stone and muted olive, no text, no logos. Render interface and typography separately."
+  },
+  {
+    id: "donezo-dashboard",
+    title: "Donezo — Project Dashboard",
+    styleLabel: "green analytics × modular dashboard",
+    family: "app-surface",
+    image: "screenshots/Screenshot 2026-11-14 at 09.50.19.png",
+    source: null,
+    summary: "A project dashboard combines a green-led metric grid with team activity, reminders, progress and a running timer.",
+    vocabulary: ["forest-green gradient", "rounded metric tiles", "hatched chart bars", "segmented progress arc", "avatar activity list", "embedded time tracker", "soft grey workspace", "pill actions"],
+    notes: [
+      "The first metric tile inverts to green, establishing hierarchy across an otherwise white four-card row.",
+      "Hatched empty bars and a matching progress-arc segment distinguish pending work without relying on colour alone.",
+      "A wide analytics panel, compact reminder and project list create an uneven but aligned grid; the dark timer anchors its lower right.",
+      "A pale sidebar and rounded outer shell keep the dense dashboard visually separate from navigation."
+    ],
+    palette: ["#F4F4F4", "#FFFFFF", "#103F2B", "#227D51", "#63BC92", "#C8F447", "#101513"],
+    typeStack: { display: "Clean geometric sans, medium weight, tight dashboard headings", body: "Neutral sans, regular, muted grey secondary labels", figures: "Large sans numerals with compact line-height" },
+    brief: "Make a busy project workspace feel calm and actionable. Give the most important number immediate emphasis, then let charts, people and upcoming work form a clear overview without making every panel compete.",
+    prompt: "Build a responsive project dashboard on a pale grey canvas inside a generously rounded white shell. Use a left navigation rail, a top search and profile bar, and a main heading with green primary and outlined secondary pill buttons. Arrange four metric cards across the top, the first in a deep-to-mid green gradient. Below, create a wide weekly bar chart with rounded solid and diagonally hatched bars, a meeting reminder, a project list, a team activity list with avatars and status badges, a segmented semicircular progress chart, and a dark green timer card. Use 20–24px card radii, white surfaces, fine borders and a neutral sans. Stack panels in reading order on narrow screens; provide text labels for chart values and statuses.",
+    imageRecipe: "IMAGE RECIPE — fill [SUBJECT], render at 4:3, 2K\n\n[SUBJECT: an abstract folded ribbon of layered material] as a dark, sculptural background for a small dashboard card, fine concentric ridges and soft directional light, STRICT palette: near-black, deep forest green and restrained emerald, quiet center for overlaid live interface text, no lettering, no logos. Build the dashboard and charts as live UI."
+  },
+  {
+    id: "sintask-board",
+    title: "Sintask — Project Board",
+    styleLabel: "kanban workspace × pastel status",
+    family: "app-surface",
+    image: "screenshots/Screenshot 2026-11-14 at 09.50.54.png",
+    source: null,
+    summary: "A project workspace puts assignment details above a four-column kanban board, using pastel status bands and compact task cards.",
+    vocabulary: ["pastel status bands", "nested project rail", "assignee chips", "view-switch tabs", "priority pills", "kanban columns", "dragged card elevation", "blue action accent"],
+    notes: [
+      "Project metadata is arranged in labelled rows above the board, separating context and ownership from individual tasks.",
+      "Four lightly tinted column headers make workflow stages scannable while white task cards remain visually consistent.",
+      "A raised, tilted card and dashed placeholder communicate a drag in progress; avatars and attachment counts compress collaboration details into the card footer.",
+      "The active view uses a thin blue underline, sharing its accent with the main add-task action."
+    ],
+    palette: ["#FFFFFF", "#F7F9FA", "#1A1C20", "#0874EE", "#D7F2FC", "#FFF0DF", "#E0FBE9", "#FCEBED"],
+    typeStack: { display: "Neutral sans, medium weight, spacious project title", body: "Neutral sans, regular, muted labels and compact card metadata" },
+    brief: "Make a collaborative project board easy to understand at a glance. Keep the project context available above the work, and use consistent cards and gentle status colour to make movement through the workflow feel straightforward.",
+    prompt: "Create a responsive project-management workspace with a pale left sidebar containing expandable project navigation, a top search and profile bar, and a white main canvas. Show breadcrumbs, a large project title, and labelled rows for visibility, assignees, deadline and tags. Below, add table, board, timeline and list tabs with a blue underline for the active view, plus a blue add-task button. Render a four-column kanban board with grey, pale blue, peach and mint stage headers. Cards have thin borders, priority pills, concise text, overlapping avatars, attachment and comment counts; some include a small preview. Support keyboard-accessible movement as well as drag and drop, and allow horizontal board scrolling on smaller screens.",
+    imageRecipe: "IMAGE RECIPE — fill [SUBJECT], render at 4:3, 2K\n\n[SUBJECT: a minimal document wireframe preview] on a very pale grey surface, thin neutral lines and a single outlined rectangle, subtle layered paper shapes, STRICT palette: white, pale grey and charcoal, flat clean interface illustration, no readable text, no logos. Create the board, cards and labels as live UI."
+  },
+  {
+    id: "twisty-income",
+    title: "Twisty — Income Tracker",
+    styleLabel: "freelance dashboard × soft data",
+    family: "app-surface",
+    image: "screenshots/Screenshot 2026-11-14 at 10.41.59.png",
+    source: null,
+    summary: "A freelance workspace pairs a large income chart with recent projects, connections and proposal progress on a cool grey canvas.",
+    vocabulary: ["lollipop income chart", "selected-day capsule", "cool grey canvas", "navy data labels", "expandable project rows", "outlined people pills", "proposal tick chart", "soft blue accents"],
+    notes: [
+      "A large white income card dominates the left side, while a selected day is singled out with a pale vertical capsule and dark value label.",
+      "Recent projects sit directly on the grey ground rather than in another card, reducing visual weight beside the chart.",
+      "The lower row mixes outlined connection pills, a softly patterned upgrade panel and a white proposal-stat card for varied emphasis.",
+      "Thin stems and blue dots keep the income chart lightweight; the percentage summary remains readable independently of the chart."
+    ],
+    palette: ["#E8EAEC", "#FFFFFF", "#20283D", "#7CA7D1", "#D1D7DC", "#E24B2A", "#8D9BB4"],
+    typeStack: { display: "Contemporary sans, medium weight, large relaxed headings", body: "Neutral sans, regular, cool grey secondary copy", figures: "Dark navy sans numerals, medium weight" },
+    brief: "Give freelancers a reassuring overview of income and opportunity. Make the income trend the primary story, with project activity and proposal progress close enough to explain what may come next.",
+    prompt: "Build a responsive freelance dashboard on a cool light-grey canvas within a large rounded shell. Place a horizontal navigation, search, utility icons and profile across the top. Use a wide white rounded income card on the left with a heading, period selector, percentage summary and seven-day lollipop chart: fine grey stems, muted blue dots, circular day labels and a pale capsule behind the selected day with a dark value tooltip. On the right, show recent project rows with status pills and an expandable detail. Below, add outlined connection rows, a pale patterned upgrade card, and a white proposal-progress panel with three large counts and fine vertical ticks. Stack sections on small screens and expose chart values in text.",
+    imageRecipe: "IMAGE RECIPE — fill [SUBJECT], render at 4:3, 2K\n\n[SUBJECT: an abstract flowing mesh made of soft perforated waves] as a subtle background for a dashboard promotion card, low contrast, delicate white dots receding across a cool grey-blue field, STRICT palette: pale blue-grey, silver and white, no text, no logos. Build all data and interface elements as live UI."
   }
 ];
